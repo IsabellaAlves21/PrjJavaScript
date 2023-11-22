@@ -1,24 +1,18 @@
+alert ('Informe os quatro valores:');
+
 let num1 = prompt("Digite um número:");
-
 let num2 = prompt("Digite outro número:");
+let num3 = prompt("Digite outro número:");
+let num4 = prompt("Digite outro número:");
 
-let op = prompt("Digite a operação matemática");
 
-let soma;
+let calc;
 
-if(op == "+"){
-    soma = Number(num1) + Number(num2);
-}else if(op == "-"){
-    soma = Number(num1) - Number(num2);
-}else if(op == "*"){
-    soma = Number(num1) * Number(num2);
-}else if(op == "/"){
-    soma = Number(num1) / Number(num2);
-}else{
-    alert('Informe uma op válida');
-}
+
+    calc = (Number(num1) + Number(num2) + Number(num3) + Number(num4)) / 4;
 
 
 
 
-alert('O resultado da op é'+soma);
+
+alert('A média dos numeros são: '+calc);
